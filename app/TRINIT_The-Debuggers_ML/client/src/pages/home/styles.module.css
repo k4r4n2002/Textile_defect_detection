@@ -1,0 +1,37 @@
+.header {
+    color: rgb(69, 69, 221);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.subheader {
+    color: rgb(88, 88, 233);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* height: 95vh; */
+}
+
+@media screen and (max-width:900px) {
+    .header {
+        width: 96%;
+        font-size: 25px;
+    }
+
+    .subheader {
+        width: 96%;
+        font-size: 20px;
+    }
+}

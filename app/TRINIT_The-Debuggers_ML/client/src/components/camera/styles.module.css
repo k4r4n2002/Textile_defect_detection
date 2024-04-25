@@ -1,0 +1,154 @@
+.container {
+    width: 60%;
+    border: 5px solid rgb(167, 167, 238);
+    border-radius: 20px;
+    /* margin: auto; */
+    padding: 10px;
+    margin-top: 10px;
+    min-height: 600px;
+}
+
+.green {
+    background-color: rgb(52, 206, 52);
+    color: rgb(1, 77, 1);
+    width: 50%;
+    height: 53px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    min-width: 180px;
+}
+
+.red {
+    background-color: rgb(247, 104, 68);
+    color: rgb(77, 29, 1);
+    width: 50%;
+    height: 53px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    min-width: 180px;
+}
+
+.blue {
+    background-color: rgb(68, 161, 247);
+    color: rgb(1, 9, 77);
+    width: 50%;
+    height: 53px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5px;
+    min-width: 180px;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camerainput {
+    width: 50%;
+}
+
+.value2Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.video video {
+    margin-top: 10px;
+    height: 500px;
+    border-radius: 5px;
+    border: 3px solid rgb(168, 168, 168);
+    max-width: 96%;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capturedImg {
+    margin-top: 10px;
+    height: 500px;
+    border-radius: 5px;
+    border: 3px solid rgb(168, 168, 168);
+    margin: auto;
+}
+
+.buttons2div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.inputFile {
+    border: 2px solid grey;
+    height: 53px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.canvas {
+    margin-top: 10px;
+    height: 500px;
+    border-radius: 5px;
+    border: 3px solid rgb(168, 168, 168);
+    max-width: 100%;
+}
+
+@media screen and (max-width:1300px) {
+    .container {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .inputFile {
+        height: 45px;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 13px;
+        text-align: center;
+        
+    }
+    
+}
+
+
